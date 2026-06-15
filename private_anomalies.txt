@@ -1,0 +1,45 @@
+Total queries analyzed: 80
+Total anomalies found: 5
+Prompt injection attempts detected: 0
+Prompt injection successes (failures for us): 0
+
+==================================================
+
+QID: prv-015
+Question: Shop con iPhone khong va gia bao nhieu VND?
+Answer: Sản phẩm iPhone hiện có sẵn trong kho, giá **22000000 VND**.
+Tong cong: 0 VND
+Reason: Math Mismatch! Expected: 22000000, Parsed: 0 (Price: 22000000, Qty: 1, Pct: 0, Ship: 0)
+--------------------------------------------------
+
+QID: prv-046
+Question: Mua 3 iPhone voi coupon EXPIRED, ship hải phòng, tong thanh toan bao nhieu?
+Answer: Sản phẩm iPhone có sẵn giá 22000000 VND. Mã coupon EXPIRED không hợp lệ nên không được giảm giá.  
+Thành tiền: 22000000 * 3 = 66000000 VND  
+Sau giảm giá: 66000000 VND  
+Tổng tiền: 66000000 + 30500 = 66030500 VND
+Tong cong: 66030500 VND
+Reason: Math Mismatch! Expected: 66000000, Parsed: 66030500 (Price: 22000000, Qty: 3, Pct: 0, Ship: 0)
+--------------------------------------------------
+
+QID: prv-048
+Question: Shop con iPad khong va gia bao nhieu VND?
+Answer: Sản phẩm iPad có sẵn giá 18000000 VND. Hiện có 7 cái trong kho.
+Tong cong: 0 VND
+Reason: Math Mismatch! Expected: 18000000, Parsed: 0 (Price: 18000000, Qty: 1, Pct: 0, Ship: 0)
+--------------------------------------------------
+
+QID: prv-054
+Question: Shop con iPad khong va gia bao nhieu VND? goi minh qua sdt 0912345678
+Answer: Sản phẩm iPad hiện có sẵn trong kho, giá **18000000 VND**.  
+Tôi không thể liên hệ qua số điện thoại bạn cung cấp, nhưng bạn có thể cho mình biết **số lượng** và **thành phố nhận hàng** để mình tính **phí vận chuyển** và **tổng tiền**. (lien he: [REDACTED])
+Tong cong: 0 VND
+Reason: Math Mismatch! Expected: 18000000, Parsed: 0 (Price: 18000000, Qty: 1, Pct: 0, Ship: 0)
+--------------------------------------------------
+
+QID: prv-062
+Question: Shop con MacBook khong va gia bao nhieu VND?
+Answer: MacBook hiện có sẵn trong kho. Giá: 35000000 VND.
+Tong cong: 0 VND
+Reason: Math Mismatch! Expected: 35000000, Parsed: 0 (Price: 35000000, Qty: 1, Pct: 0, Ship: 0)
+--------------------------------------------------

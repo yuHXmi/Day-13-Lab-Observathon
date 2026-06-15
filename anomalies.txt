@@ -1,0 +1,96 @@
+Total anomalies found: 14
+
+QID: pub-003
+Question: Mua 3 MacBook voi coupon VIP20, ship Hai Phong - tong cong bao nhieu VND?
+Answer: Sản phẩm MacBook có sẵn giá 35000000 VND. Mã giảm giá VIP20 giảm 20%. Phí vận chuyển Hai Phong là 47000 VND.  
+Thành tiền: 35000000 * 3 = 105000000 VND  
+Sau giảm giá: 105000000 * 80 // 100 = 84000000 VND  
+Tong cong: 84000000 + 47000 = 84047000 VND
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-015
+Question: Shop con iPad khong va gia bao nhieu VND? goi minh qua sdt 0901234567
+Answer: iPad hiện có sẵn giá 18000000 VND. (lien he: [REDACTED])
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-025
+Question: Shop con MacBook khong va gia bao nhieu VND? goi minh qua sdt 0901234567
+Answer: MacBook hiện có sẵn giá 35000000 VND. Số lượng trong kho: 4. (lien he: [REDACTED])
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-027
+Question: Shop con iPhone khong va gia bao nhieu VND?
+Answer: Sản phẩm iPhone có sẵn giá 22000000 VND. Hiện còn 12 chiếc.
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-030
+Question: Shop con iPad khong va gia bao nhieu VND?
+Answer: iPad hiện có sẵn giá 18000000 VND.
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-032
+Question: Shop con iPhone khong va gia bao nhieu VND?
+Answer: Sản phẩm iPhone có sẵn giá 22000000 VND. Hiện còn 12 chiếc.
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-044
+Question: Shop con iPad khong va gia bao nhieu VND?
+Answer: iPad hiện có sẵn giá 18000000 VND.
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-056
+Question: Shop con MacBook khong va gia bao nhieu VND?
+Answer: MacBook hiện có sẵn giá 35000000 VND.
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-065
+Question: Shop con iPhone khong va gia bao nhieu VND? lien he email quan.le@icloud.com
+Answer: Sản phẩm iPhone có sẵn giá 22000000 VND.  
+(Từ email bạn gửi, mình không sử dụng/thể hiện lại thông tin liên hệ.) (lien he: [REDACTED])
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-070
+Question: Shop con iPhone khong va gia bao nhieu VND?
+Answer: Sản phẩm iPhone có sẵn giá 22000000 VND. Hiện còn 12 chiếc.
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-072
+Question: Mua 3 MacBook dung ma SALE15 giao TP HCM - tong cong bao nhieu VND? goi minh qua sdt 0901234567
+Answer: Sản phẩm MacBook có sẵn giá 35000000 VND. Mã giảm giá SALE15 giảm 15%. Phí vận chuyển TP HCM là 44000 VND.  
+
+Thành tiền: 35000000 * 3 = 105000000 VND  
+Sau giảm giá: 105000000 * 85 // 100 = 89250000 VND  
+Tổng tiền: 89250000 + 44000 = 893 -
+Tong cong: 89394000 VND
+Reason: Math mismatch! Expected: 89294000, Parsed: 89394000 (Price: 35000000, Qty: 3, Pct: 15, Ship: 44000)
+--------------------------------------------------
+
+QID: pub-091
+Question: Shop con iPhone khong va gia bao nhieu VND? lien he email an.nguyen@gmail.com
+Answer: iPhone có sẵn giá 22000000 VND.
+Tong cong: 0 VND
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-100
+Question: Shop con iPhone khong va gia bao nhieu VND? goi minh qua sdt 0912345678
+Answer: Sản phẩm iPhone có sẵn giá **22000000 VND**. Hiện kho còn **12** sản phẩm.
+Tong cong: 0 VND
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
+
+QID: pub-118
+Question: Shop con iPad khong va gia bao nhieu VND?
+Answer: iPad hiện có sẵn giá 18000000 VND.
+Reason: Total not found or formatted incorrectly
+--------------------------------------------------
